@@ -1,0 +1,41 @@
+{
+  "timestamp": "20260105_093329",
+  "classifier": {
+    "accuracy": 0.9166666666666666,
+    "correct": 44,
+    "total": 48,
+    "by_type": {
+      "weighting": 1.0,
+      "consensus": 0.875,
+      "deduction": 1.0,
+      "comparison": 1.0,
+      "causal": 0.875,
+      "lookup": 0.75
+    }
+  },
+  "neurons": {
+    "layer": 6,
+    "consistent_by_type": {
+      "weighting": 1531,
+      "consensus": 1360,
+      "deduction": 1181,
+      "comparison": 1307,
+      "causal": 1329,
+      "lookup": 865
+    },
+    "specific_by_type": {
+      "weighting": 9,
+      "consensus": 5,
+      "deduction": 16,
+      "comparison": 7,
+      "causal": 2,
+      "lookup": 21
+    }
+  },
+  "weighting_analysis": {
+    "weighting_consistent": 1531,
+    "lookup_consistent": 865,
+    "weighting_specific": 703,
+    "jaccard": 0.5280612244897959
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "classifier": {
+    "correct": 44,
+    "total": 48,
+    "by_type": {
+      "weighting": {
+        "correct": 8,
+        "total": 8
+      },
+      "consensus": {
+        "correct": 7,
+        "total": 8
+      },
+      "deduction": {
+        "correct": 8,
+        "total": 8
+      },
+      "comparison": {
+        "correct": 8,
+        "total": 8
+      },
+      "causal": {
+        "correct": 7,
+        "total": 8
+      },
+      "lookup": {
+        "correct": 6,
+        "total": 8
+      }
+    }
+  },
+  "neurons": {
+    "layer": 6,
+    "jaccard": {
+      "weighting_vs_weighting": 1.0,
+      "weighting_vs_consensus": 0.6129032258064516,
+      "weighting_vs_deduction": 0.2987012987012987,
+      "weighting_vs_comparison": 0.5625,
+      "weighting_vs_causal": 0.6129032258064516,
+      "weighting_vs_lookup": 0.2578616352201258,
+      "consensus_vs_weighting": 0.6129032258064516,
+      "consensus_vs_consensus": 1.0,
+      "consensus_vs_deduction": 0.25,
+      "consensus_vs_comparison": 0.5748031496062992,
+      "consensus_vs_causal": 0.6949152542372882,
+      "consensus_vs_lookup": 0.26582278481012656,
+      "deduction_vs_weighting": 0.2987012987012987,
+      "deduction_vs_consensus": 0.25,
+      "deduction_vs_deduction": 1.0,
+      "deduction_vs_comparison": 0.2903225806451613,
+      "deduction_vs_causal": 0.26582278481012656,
+      "deduction_vs_lookup": 0.5267175572519084,
+      "comparison_vs_weighting": 0.5625,
+      "comparison_vs_consensus": 0.5748031496062992,
+      "comparison_vs_deduction": 0.2903225806451613,
+      "comparison_vs_comparison": 1.0,
+      "comparison_vs_causal": 0.680672268907563,
+      "comparison_vs_lookup": 0.26582278481012656,
+      "causal_vs_weighting": 0.6129032258064516,
+      "causal_vs_consensus": 0.6949152542372882,
+      "causal_vs_deduction": 0.26582278481012656,
+      "causal_vs_comparison": 0.680672268907563,
+      "causal_vs_causal": 1.0,
+      "causal_vs_lookup": 0.25,
+      "lookup_vs_weighting": 0.2578616352201258,
+      "lookup_vs_consensus": 0.26582278481012656,
+      "lookup_vs_deduction": 0.5267175572519084,
+      "lookup_vs_comparison": 0.26582278481012656,
+      "lookup_vs_causal": 0.25,
+      "lookup_vs_lookup": 1.0
+    }
+  },
+  "neuron_by_type": {
+    "weighting": {
+      "consistent": 1531,
+      "any": 2984,
+      "specific": 9
+    },
+    "consensus": {
+      "consistent": 1360,
+      "any": 2963,
+      "specific": 5
+    },
+    "deduction": {
+      "consistent": 1181,
+      "any": 2892,
+      "specific": 16
+    },
+    "comparison": {
+      "consistent": 1307,
+      "any": 2921,
+      "specific": 7
+    },
+    "causal": {
+      "consistent": 1329,
+      "any": 2902,
+      "specific": 2
+    },
+    "lookup": {
+      "consistent": 865,
+      "any": 2744,
+      "specific": 21
+    }
+  },
+  "weighting": {
+    "weighting_consistent": 1531,
+    "lookup_consistent": 865,
+    "weighting_specific": 703,
+    "jaccard": 0.5280612244897959
+  }
+}
