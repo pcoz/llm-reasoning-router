@@ -423,9 +423,18 @@ The "closed form" of reasoning - the minimal operations needed to answer a quest
 
 ## Code and Data
 
-- **Test code**: `blog/code/`
-- **Results**: `blog/results/`
-- **Classifier**: `core/reasoning_classifier.py`
+All code is available at: **https://github.com/pcoz/llm-reasoning-router**
+
+```bash
+git clone https://github.com/pcoz/llm-reasoning-router.git
+cd llm-reasoning-router
+pip install transformers torch numpy
+python code/run_all_tests.py
+```
+
+- **Classifier**: `code/reasoning_classifier.py`
+- **Full test suite**: `code/run_all_tests.py`
+- **Results**: `results/`
 
 ---
 
